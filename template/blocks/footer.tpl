@@ -1,0 +1,1 @@
+{$titles.titles_footerCopy}&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="http://wworks.com.ua/" target="_blank">{$titles.titles_footerWWcms}</a>

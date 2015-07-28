@@ -1,0 +1,50 @@
+body{
+    background-color: #DDDDDD;
+    margin: 0px;
+}
+div.separate{
+    height: 0px;
+    clear: both;
+}
+
+
+
+
+
+#layout{
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    width: 1000px;
+    margin: 0px auto;
+}
+        #layout .text{
+            text-align: center;
+            font: bold 24px/26px 'Arial';
+            padding: 50px 0px;
+        }
+        #layout .formAuth{
+            margin: 50px auto 0px;
+            padding: 20px 0px;
+            width: 400px;
+            border-radius: 10px;
+            border: 1px solid #000000;
+        }
+                #layout .formAuth .row{
+                    clear: both;
+                    padding-top: 10px;
+                    text-align: center;
+                }
+                        #layout .formAuth .row .left, #layout .formAuth .row .right{
+                            float: left;
+                            width: 170px;
+                        }
+                        #layout .formAuth .row .left{
+                            text-align: right;
+                            font: 16px/18px 'Arial';
+                            padding-right: 5px;
+                        }
+                        #layout .formAuth .row .right{text-align: left;}
+                                #layout .formAuth .row .right input{
+                                    width: 160px;
+                                    height: 14px;
+                                }

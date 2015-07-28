@@ -1,0 +1,1 @@
+<div class="homeText">{$TPL.homeText}</div>

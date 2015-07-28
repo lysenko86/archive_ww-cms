@@ -1,0 +1,4 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^([0-9a-zA-Zа-яА-Я_]+)$ /index.php?$1
+</IfModule>

@@ -1,0 +1,5 @@
+<Limit ALL>
+    Allow from 94.45.106.157
+    Allow from 194.176.97.115
+    Deny from all
+</Limit>

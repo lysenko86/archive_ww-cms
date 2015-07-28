@@ -1,0 +1,161 @@
+body{
+    background-color: #DDDDDD;
+    margin: 0px;
+}
+div.separate{
+    height: 0px;
+    clear: both;
+}
+
+
+
+
+
+#layout{
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    width: 1000px;
+    margin: 0px auto;
+}
+
+
+
+
+
+#header{
+    background: repeat-y url('../images/header.jpg');
+    height: 82px;
+}
+
+
+
+
+
+#main{}
+#message{padding: 5px 10px;}
+#message div{
+    color: #FFFFFF;
+    font: bold 14px/16px 'Arial';
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+        #message div.error{background-color: #FF7777;}
+        #message div.info{background-color: #7777FF;}
+        #message div.good{background-color: #77CC77;}
+#content{padding: 15px 120px 30px;}
+        #content h1.title, #content h3.title{margin: 0px 10px 5px;}
+        #content h1.title{font: bold 22px/24px 'Arial';}
+        #content h3.title{font: bold 18px/20px 'Arial';}
+        #content .wwForm{
+            border: 1px solid #CCCCCC;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #EEEEEE;
+            margin: 25px 100px 20px;
+        }
+                #content .wwForm .row{
+                    clear: both;
+                    text-align: center;
+                    padding-top: 5px;
+                }
+                #content .wwForm .divSubmit{padding-top: 15px;}
+                        #content .wwForm .row .left, #content .wwForm .row .right{
+                            float: left;
+                            font: 14px/18px 'Arial';
+                        }
+                        #content .wwForm .row .text{
+                            outline: none;
+                            border: 1px solid #BBBBBB;
+                        }
+                                #content .wwForm .row input.text{
+                                    width: 200px;
+                                    height: 20px;
+                                    padding: 1px 3px 0px;
+                                    font: 14px/18px 'Arial';
+                                }
+                                #content .wwForm .row input.text.required{background-position: 99% 15%;}
+                                #content .wwForm .row input.readonly{background-color: #EEEEEE;}
+                                #content .wwForm .row select.text{
+                                    height: 19px;
+                                    padding: 1px 3px 0px;
+                                    font: 14px/18px 'Arial';
+                                }
+                                #content .wwForm .row select.text.required{background-position: 93% 15%;}
+                                #content .wwForm .row textarea.text{
+                                    width: 100%;
+                                    height: 400px;
+                                    padding: 5px 0px;
+                                    font-size: 12px;
+                                    resize: none;
+                                }
+                                #content .wwForm .row textarea.text.required{background-position: 99% 1%;}
+                        #content .wwForm .row .text.required{background: no-repeat url('../images/required.png') #FFFFFF;}
+                        #content .wwForm .row .text.active{border: 1px solid #008AFF;}
+                        #content .wwForm .row .text.error{border: 1px solid #FF0000;}
+                        #content .wwForm .row .left{
+                            width: 180px;
+                            text-align: right;
+                            padding-right: 3px;
+                            padding-top: 2px;
+                        }
+                        #content .wwForm .row .right{
+                            width: 210px;
+                            text-align: left;
+                        }
+        #content .logo{text-align: center;}
+        #content .info{
+            background-color: #F9F9F9;
+            border: 1px solid #DDDDDD;
+            border-radius: 10px;
+            padding: 15px 25px;
+            text-align: justify;
+            margin: 30px 0px;
+            font: 14px/18px 'Arial';
+        }
+                #content .info a{
+                    color: #0166FF;
+                    text-decoration: none;
+                }
+                #content .info a:hover{text-decoration: underline;}
+                #content .info a.go{
+                    display: block;
+                    background: linear-gradient(0deg, #0166FF 0%, #73ABFF 100%);
+                    border-radius: 5px;
+                    padding: 5px 10px;
+                    width: 100px;
+                    margin: 35px auto 0px;
+                    text-align: center;
+                    color: #FFFFFF;
+                    font-weight: bold;
+                }
+                #content .info a.big{
+                    width: 150px;
+                    font: bold 30px/34px 'Arial';
+                }
+                #content .info a.go:hover{
+                    background: linear-gradient(0deg, #73ABFF 0%, #0166FF 100%);
+                    text-decoration: none;
+                }
+        #content .delInstall{
+            text-align: center;
+            margin: 30px 0px;
+            font: 18px/20px 'Arial';
+        }
+
+
+
+
+
+#footer{
+    background: repeat-x url('../images/footer.gif');
+    height: 18px;
+    text-align: center;
+    padding-top: 4px;
+    font: 12px/14px 'Arial';
+}
+        #footer a{
+            text-decoration: none;
+            font: 12px/14px 'Arial';
+            color: #0166FF;
+        }
+        #footer a:hover{text-decoration: underline;}
