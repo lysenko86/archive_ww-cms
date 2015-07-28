@@ -1,0 +1,26 @@
+#admContent .admEdit{}
+        #admContent .admEdit .wwForm .row .right{width: 350px;}
+                #admContent .admEdit .wwForm .row .right input{width: 340px;}
+
+
+
+
+
+#mainArticles .inner .tasks .item{padding: 15px 0px;}
+#mainArticles .inner .tasks .item .title{padding-bottom: 7px;}
+#mainArticles .inner .tasks .item .title a{
+    color: #000000;
+    font: 18px/24px 'pfdindisplaypro-med';
+    text-decoration: none;
+}
+#mainArticles .inner .tasks .item .title a:hover{
+    color: #CDB280;
+    text-decoration: underline;
+}
+#mainArticles .inner .tasks .item .descr{
+    font: 16px/21px 'pfdindisplaypro-light';
+    color: #666666;
+    text-align: justify;
+    height: 82px;
+    overflow: hidden;
+}

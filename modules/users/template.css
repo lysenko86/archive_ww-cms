@@ -1,0 +1,36 @@
+#admContent .admEdit{}
+        #admContent .admEdit .wwForm .row .right{width: 350px;}
+                #admContent .admEdit .wwForm .row .right input{width: 340px;}
+                #admContent .admEdit .wwForm .row .right select{width: 348px;}
+
+
+
+
+
+#content .registration, #content .auth{
+    width: 350px;
+    margin: 60px auto;
+}
+        #content .registration .row .left, #content .registration .row .right, #content .auth .row .left, #content .auth .row .right{width: 150px;}
+                #content .registration .row .right input, #content .auth .row .right input{width: 100px;}
+                #content .auth .row .remindPass{text-align: right;}
+                        #content .auth .row .remindPass a{
+                            color: #888888;
+                            font-style: italic;
+                            text-decoration: none;
+                            font: 11px/13px 'Arial';
+                        }
+                        #content .auth .row .remindPass a:hover, #content .auth .row .remindPass a.active{color: #000000;}
+                #content .auth .remindDiv{
+                    display: none;
+                    font: 12px/14px 'Arial';
+                }
+                        #content .auth .remindDiv a{
+                            background:linear-gradient(0deg, #4586AB 0%, #72B8CD 100%);
+                            border-radius: 5px;
+                            padding: 3px 7px;
+                            text-decoration: none;
+                            font: 12px/14px 'Arial';
+                            color: #FFFFFF;
+                        }
+                        #content .auth .remindDiv a:hover{background:linear-gradient(0deg, #72B8CD 0%, #4586AB 100%);}

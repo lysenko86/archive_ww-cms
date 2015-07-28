@@ -1,0 +1,95 @@
+#admContent .admEdit{}
+        #admContent .admEdit .wwForm .row .right{width: 350px;}
+                #admContent .admEdit .wwForm .row .right input{width: 340px;}
+                #admContent .admEdit .wwForm .row .right select{width: 348px;}
+#admContent .admList{}
+        #admContent .admList .wwTable tr.expand{cursor: pointer;}
+        #admContent .admList .wwTable tr td.innerTable{
+            display: none;
+            border-top: 1px solid #000000;
+            border-bottom: 1px solid #000000;
+            padding: 30px 40px;
+        }
+                #admContent .admList .wwTable tr td.innerTable .header{text-align: right;}
+                        #admContent .admList .wwTable tr td.innerTable .header .btnClose img{
+                            position: relative;
+                            top: -2px;
+                        }
+
+
+
+
+
+#content .bidsList{}
+        #content .wwTable tr.expand{cursor: pointer;}
+        #content .wwTable tr td.innerTable{
+            display: none;
+            border-top: 1px solid #000000;
+            border-bottom: 1px solid #000000;
+            padding: 30px 40px;
+        }
+                #content .wwTable tr td.innerTable .header{text-align: right;}
+                        #content .wwTable tr td.innerTable .header .msg{
+                            display: none;
+                            text-align: left;
+                            color: #FFFFFF;
+                            font: bold 14px/16px 'Arial';
+                            padding: 5px 15px;
+                            border-radius: 5px;
+                            margin-bottom: 10px;
+                        }
+                                #content .wwTable tr td.innerTable .header .msg.error{background-color: #FF7777;}
+                        #content .wwTable tr td.innerTable .header .btnClose img{
+                            position: relative;
+                            top: -2px;
+                        }
+                        #content .wwTable tr td.innerTable .wwTable tr select, #content .wwTable tr td.innerTable .wwTable tr input{outline: none;}
+                #content .wwTable tr td.innerTable .footer{padding-top: 15px;}
+                        #content .wwTable tr td.innerTable .footer .button{
+                            display: block;
+                            background:linear-gradient(0deg, #4586AB 0%, #72B8CD 100%);
+                            border-radius: 5px;
+                            width: 140px;
+                            padding: 5px 0px;
+                            margin: 0px auto;
+                            text-decoration: none;
+                            font: 12px/14px 'Arial';
+                            color: #FFFFFF;
+                            text-align: center;
+                        }
+                        #content .wwTable tr td.innerTable .footer .button:hover{background:linear-gradient(0deg, #72B8CD 0%, #4586AB 100%);}
+
+
+
+
+
+#content .registryEdit .wwForm .row .left{width: 290px;}
+#content .registryEdit .wwForm .row .right{width: 400px;}
+        #content .registryEdit .wwForm .row .right input{width: 350px;}
+
+
+
+
+
+#content .btnExcel{
+    position: absolute;
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin-left: 940px;
+    margin-top: -15px;
+}
+
+
+
+
+
+#content .productsList .btnProductDel{
+    display: none;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    margin-top: -16px;
+    margin-left: 60px;
+}
+#content .productsList tr.active .btnProductDel{display: block;}

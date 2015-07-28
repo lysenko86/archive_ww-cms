@@ -1,0 +1,36 @@
+function slider_sliderChangePublic(link, data){
+    if (data == 1) $(link).children('img').attr('src', DIR_TEMPLATE+'images/adminka/btn/btn_on.png');
+    else $(link).children('img').attr('src', DIR_TEMPLATE+'images/adminka/btn/btn_off.png');
+}
+
+
+
+
+
+function slider_sliderDelItem_before(link){
+    if (confirm(WWcms.getTitle('js_ask_delItem'))) return true;
+    else return false;
+}
+function slider_sliderDelItem(link){ $(link).parent().parent().fadeOut(300, function(){ $(link).parent().parent().remove(); }); }
+
+
+
+
+
+function slider_sliderMoveItem(link, data){
+    if ((data == 'up' && $(link).parent().parent().prev().children('td').size()) || (data == 'down' && $(link).parent().parent().next().children('td').size())){
+        var className = $(link).parent().parent().attr('class').replace(' active', '');
+        var item = '<tr class="'+className+'">'+$(link).parent().parent().html()+'</tr>';
+        switch (data){
+            case 'down': $(link).parent().parent().next().after(item); break;
+            case 'up':  $(link).parent().parent().prev().before(item); break;
+        }
+        $(link).parent().parent().remove();
+    }
+}
+
+
+
+
+
+WWcms.bigImage('img.bigImage');

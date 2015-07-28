@@ -1,0 +1,4 @@
+#admContent .admEdit{}
+        #admContent .admEdit .wwForm .row .right{width: 350px;}
+                #admContent .admEdit .wwForm .row .right input{width: 340px;}
+                #admContent .admEdit .wwForm .row .right select{width: 348px;}

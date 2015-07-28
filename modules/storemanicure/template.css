@@ -1,0 +1,203 @@
+#admContent .admEdit{}
+        #admContent .admEdit .wwForm .row .right{width: 350px;}
+                #admContent .admEdit .wwForm .row .right input{width: 340px;}
+                #admContent .admEdit .wwForm .row .right select{width: 348px;}
+                #admContent .admEdit .wwForm .row .right .countSMS{
+                    text-align: right;
+                    font-size: 11px;
+                }
+                #admContent .admEdit .wwForm .row .radios input{width: auto;}
+        #admContent .admEdit .wwForm .text{font: 12px/14px 'Arial';}
+                #admContent .admEdit .wwForm .text input{
+                    position: relative;
+                    top: 3px;
+                }
+        #admContent .admEdit .wwForm .row .last{
+            float: left;
+            width: 130px;
+            text-align: left;
+            font: 12px/14px 'Arial';
+            padding-left: 3px;
+            padding-top: 2px;
+        }
+                #admContent .admEdit .wwForm .row .last strong{color: #FF0000;}
+        #admContent .admEdit .prihodForm{padding: 50px 20px;}
+                #admContent .admEdit .prihodForm .row{
+                    padding: 3px 0px;
+                    font: 18px/20px 'Arial';
+                }
+                        #admContent .admEdit .prihodForm .row strong{color: #FF0000;}
+                        #admContent .admEdit .prihodForm .row .left{
+                            padding: 5px 5px 0px 0px;
+                            font: 18px/20px 'Arial';
+                            width: 190px;
+                        }
+                        #admContent .admEdit .prihodForm .row .right{font: 18px/20px 'Arial';}
+                                #admContent .admEdit .prihodForm .row input, #admContent .admEdit .prihodForm .row select{
+                                    height: auto;
+                                    padding: 3px 3px 3px 5px;
+                                    border-radius: 4px;
+                                    font: 16px/18px 'Arial';
+                                }
+                        #admContent .admEdit .prihodForm .row .last{
+                            padding: 7px 0px 0px 5px;
+                            font: 18px/20px 'Arial';
+                        }
+                #admContent .admEdit .prihodForm .divSubmit{padding-top: 25px;}
+                        #admContent .admEdit .prihodForm .divSubmit a{font: bold 18px/20px 'Arial';}
+                #admContent .admEdit .prihodForm .serviceItem{
+                    text-align: left;
+                    border: 1px solid #CCCCCC;
+                    border-radius: 5px;
+                    background-color: #E9E9E9;
+                    padding: 5px 10px;
+                    margin: 3px 0px;
+                }
+                        #admContent .admEdit .prihodForm .serviceItem .btnDel{
+                            display: block;
+                            position: absolute;
+                            margin-left: 718px;
+                            margin-top: -40px;
+                        }
+                        #admContent .admEdit .prihodForm .row .btnAdd{
+                            display: block;
+                            padding: 6px 0px;
+                            width: 180px;
+                            color: #0166FF;
+                            border: 1px solid #0166FF;
+                            border-radius: 5px;
+                            text-decoration: none;
+                            margin: 10px auto;
+                        }
+                        #admContent .admEdit .prihodForm .row .btnAdd:hover{
+                            background-color: #0166FF;
+                            color: #FFFFFF;
+                        }
+                        #admContent .admEdit .prihodForm .row .total{
+                            position: absolute;
+                            width: 145px;
+                            height: 40px;
+                            margin-left: 585px;
+                            margin-top: -45px;
+                            font: bold 22px/24px 'Arial';
+                        }
+#admContent .admList{}
+        #admContent .admList .divSum{
+            padding: 10px;
+            text-align: right;
+            font: 16px/18px 'Arial';
+        }
+        #admContent .admList .elements{
+            padding: 10px 0px 20px;
+            font: 12px/14px 'Arial';
+        }
+                #admContent .admList .elements select{width: 130px;}
+
+
+
+
+
+#tablePlan{
+    width: 780px;
+    position: relative;
+    left: -5px;
+}
+        #tablePlan .dateTitle{
+            font: bold 24px/26px 'Arial';
+            text-align: center;
+            color: #444444;
+            padding: 5px 0px 3px;
+        }
+        #tablePlan .dateChange{
+            padding: 5px 0px 0px 5px;
+            font: 18px/20px 'Arial';
+        }
+        #tablePlan .days{overflow: hidden;}
+        #tablePlan .day{
+            padding: 0px;
+            margin: 0px;
+            border-collapse: collapse;
+            width: 780px;
+        }
+                #tablePlan .day .time{
+                    width: 60px;
+                    color: #0000FF;
+                    font: bold 16px/18px 'Arial';
+                    text-align: center;
+                    padding: 5px 0px 3px;
+                }
+                #tablePlan .day .time.odd{background-color: #EEEEEE;}
+                #tablePlan .day .time.even{background-color: #DDDDDD;}
+                #tablePlan .day .mark{
+                    border-top: 1px solid #FFFFFF;
+                    height: 20px;
+                    cursor: pointer;
+                }
+                #tablePlan .day .mark.odd{background-color: #EEEEEE;}
+                #tablePlan .day .mark.even{background-color: #DDDDDD;}
+                #tablePlan .day .mark.checked{background-color: #0000FF;}
+                        #tablePlan .day .mark .master{
+                            position: absolute;
+                            margin-top: -10px;
+                            margin-left: 15px;
+                            background-color: #FFFFFF;
+                            border: 1px solid #EEEEEE;
+                            border-radius: 3px;
+                            padding: 2px 5px;
+                            width: 150px;
+                            font: 12px/14px 'Arial';
+                            display: none;
+                        }
+                #tablePlan .day tr.active .mark.odd{background-color: #CCCCCC;}
+                #tablePlan .day tr.active .mark.even{background-color: #BBBBBB;}
+                #tablePlan .day tr.active .mark.checked{background-color: #0000FF;}
+                        #tablePlan .day tr.active .mark .master{display: block;}
+        #tablePlan .btnLeft, #tablePlan .btnRight{
+            position: absolute;
+            display: block;
+            margin-top: -33px;
+        }
+                #tablePlan .btnLeft img, #tablePlan .btnRight img{width: 30px;}
+        #tablePlan .btnLeft{margin-left: 270px;}
+        #tablePlan .btnRight{margin-left: 480px;}
+                        #tablePlan .day .mark .wnd{
+                            position: absolute;
+                            display: none;
+                            background-color: #FFFFFF;
+                            border: 1px solid #EEEEEE;
+                            border-radius: 5px;
+                            box-shadow: 1px 1px 8px -1px #000000;
+                            width: 250px;
+                            height: 150px;
+                            padding: 3px 7px;
+                            margin-left: 10px;
+                            margin-top: 5px;
+                            z-index: 10;
+                            font: 14px/16px 'Arial';
+                        }
+                        #tablePlan .day .mark.checked:hover .wnd{display: block;}
+                        #tablePlan .day .mark .wnd textarea{
+                            width: 100%;
+                            height: 30px;
+                        }
+                        #tablePlan .day .mark .wnd .button{
+                            display: block;
+                            padding: 3px 0px;
+                            color: #0166FF;
+                            border: 1px solid #0166FF;
+                            border-radius: 5px;
+                            text-decoration: none;
+                            text-align: center;
+                            width: 75px;
+                            margin: 20px auto 0px;
+                        }
+                        #tablePlan .day .mark .wnd .button:hover{
+                            background-color: #0166FF;
+                            color: #FFFFFF;
+                        }
+
+
+
+
+
+#content .page{}
