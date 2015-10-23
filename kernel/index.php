@@ -1,4 +1,4 @@
-<?php
+﻿<?php
     ini_set('display_errors', 1);
     if (!include_once "$ROOT_DIR/kernel/wwcms.php") fatalError('Не могу подключить ядро "/kernel/wwcms.php"');
     else{
@@ -62,7 +62,7 @@
         ));
 
 // Подключение шаблона
-        $Smarty->display();
+        $Smarty->showTemplate();
 
 // Отключаемся от базы
         $Db = NULL;
